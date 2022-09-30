@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.top-header img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.top-header .container .ad {
+  background-image: url(.../assets/img/ad1);
+}
+
+/*# sourceMappingURL=style.css.map */

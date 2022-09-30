@@ -21,6 +21,9 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+    <!-- ionic icon  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- css  -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -28,13 +31,29 @@
 
 <body>
     <div class="header">
-        <div class="top-header">
-            <div class="container">
-                <div class="ad"></div>
+        <div class="container">
+            <div class="top-header">
+                <div class="advertising"></div>
+                <img src="./assets/img/ad-1.png" alt="advertising">
+            </div>
+            <div class="mid-header d-flex">
+                <span class="logo-header">
+                    <img src="./assets/img/logo.svg" alt="logo here">
+                </span>
+                <form action="#">
+                    <span class="search-box d-flex">
+                        <input type="text" placeholder="Tim kiem san pham...">
+                        <button id="search"><ion-icon name="search-outline"></ion-icon></button>
+                    </span>
+                </form>
+
             </div>
 
+
         </div>
+
     </div>
 
 </body>
+
 </html>

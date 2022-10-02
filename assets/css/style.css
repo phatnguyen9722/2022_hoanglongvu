@@ -10,6 +10,10 @@ html {
   font-size: 16px;
 }
 
+ion-icon {
+  display: block;
+}
+
 .header {
   background-color: #0079BC;
   color: #FFFFFF;
@@ -24,12 +28,17 @@ html {
 }
 
 .mid-header .logo-header {
-  width: 6rem;
+  width: 7rem;
   height: 3rem;
+  padding-right: 1rem;
 }
 .mid-header .logo-header img {
   width: 100%;
   height: auto;
+}
+.mid-header .search-box {
+  width: 24rem;
+  padding: 0.2rem 1rem;
 }
 .mid-header .search-box input {
   width: 20rem;
@@ -37,14 +46,40 @@ html {
   color: #8A8888;
   font-size: 14px;
 }
+.mid-header .service-header {
+  font-size: 14px;
+}
+.mid-header .service-header span {
+  padding: 0 12px;
+}
+.mid-header .service-header .middle {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.2);
+  align-items: center;
+  position: relative;
+  top: -13px;
+}
+.mid-header .service-header .user-btn {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1rem;
+}
+.mid-header .service-header .cart-btn {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1rem;
+}
+
 .mid-header .search-box #search {
   width: 3rem;
   height: 2.2rem;
   background-color: rgba(227, 205, 205, 0.1019607843);
   color: #E6D9AD;
-}
-.mid-header .service-header {
-  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

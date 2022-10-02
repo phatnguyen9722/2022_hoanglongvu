@@ -1,13 +1,4 @@
-$baseHeaderColor : #0079BC;
-$headerTextColor : #FFFFFF;
-$headerTextSize : 14px;
-
-
-$inputTextColor : #8A8888;
-$inputTextSize : 14px;
-
-$searchBtnColor : #E3CDCD1A;
-$searchBtnIcon : #E6D9AD;
+@import '../scss-utils/variables';
 .header {
     background-color: $baseHeaderColor;
     color: $headerTextColor;
@@ -24,29 +15,51 @@ $searchBtnIcon : #E6D9AD;
 
 .mid-header {
     .logo-header {
-        width: 6rem;
+        width: 7rem;
         height: 3rem;
         img {
             width: 100%;
             height: auto;
         }
+        padding-right: 1rem;
     }
     .search-box {
+        width: 24rem;
+        padding: 0.2rem 1rem;
         input {
             width: 20rem;
             height: 2.2rem;
             color: $inputTextColor;
             font-size: $inputTextSize;
-        }
-        #search {
-            width: 3rem;
-            height: 2.2rem;
-            background-color: $searchBtnColor;
-            color: $searchBtnIcon;
-        }
+        }       
     }
     .service-header {
         font-size: $headerTextSize;
+        span {
+            padding: 0 12px;
+        }
+        .middle {
+            font-size: 2.5rem;
+            font-weight: 100;
+            color : $middleColor;
+            align-items: center;
+            position: relative;
+            top: -13px;
+        }
+        .user-btn {
+            background-color: $bgBtnHeader;
+            border-radius: 5px;
+            height: 2.5rem;
+            width: 2.5rem;
+            font-size: 1rem;
+        }
+        .cart-btn {
+            background-color: $bgBtnHeader;
+            border-radius: 5px;
+            width: 7rem;
+            height: 2.5rem;
+            font-size: 1rem;
+        }
     }
     
 }
